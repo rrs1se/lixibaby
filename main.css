@@ -316,7 +316,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 .socialLinks a[href*="t.me"] {
     background: linear-gradient(#5865f2);
-    -webkit-background: linear-gradient(#5865f2);
+    -webkit-background: linear-gradient(135deg, #5865f2 0%, #5865f2 100%);
 }
 
 .socialLinks a[href*="instagram"] {
@@ -326,12 +326,12 @@ input[type="range"]::-webkit-slider-thumb {
 
 .socialLinks a[href*="tiktok"] {
     background: linear-gradient(#010101);
-    -webkit-background: linear-gradient(#010101);
+    -webkit-background: linear-gradient(135deg, #010101 0%, #010101 100%);
 }
 
 .socialLinks a[href*="twitch"] {
     background: linear-gradient(#6e00b8);
-    -webkit-background: linear-gradient(#6e00b8);
+    -webkit-background: linear-gradient(135deg, #6e00b8 0%, #6e00b8 100%);
 }
 
 .socialLinks a[href*="donatello"] {
