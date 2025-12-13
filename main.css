@@ -4,12 +4,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bg.PNG);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(img/bg.PNG);
   background-size: cover;
   background-position: center;
 }
 
-html, body {
+html,
+body {
   -webkit-overflow-scrolling: touch;
 }
 
@@ -146,7 +148,7 @@ input[type="range"]::-webkit-slider-thumb {
   z-index: 0;
 }
 
-.bg-container { 
+.bg-container {
   width: 100%;
   height: 100%;
   position: relative;
@@ -315,28 +317,28 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .socialLinks a[href*="t.me"] {
-    background: linear-gradient(#5865f2);
-    -webkit-background: linear-gradient(135deg, #5865f2 0%, #5865f2 100%);
+  background: linear-gradient(135deg, #5865f2 0%, #5865f2 100%);
+  -webkit-background: linear-gradient(135deg, #5865f2 0%, #5865f2 100%);
 }
 
 .socialLinks a[href*="instagram"] {
-    background: linear-gradient(135deg, #f58529 0%, #bc2a8d 100%);
-    -webkit-background: linear-gradient(135deg, #f58529 0%, #bc2a8d 100%);
+  background: linear-gradient(135deg, #f58529 0%, #bc2a8d 100%);
+  -webkit-background: linear-gradient(135deg, #f58529 0%, #bc2a8d 100%);
 }
 
 .socialLinks a[href*="tiktok"] {
-    background: linear-gradient(#010101);
-    -webkit-background: linear-gradient(135deg, #010101 0%, #010101 100%);
+  background: linear-gradient(135deg, #010101 0%, #010101 100%);
+  -webkit-background: linear-gradient(135deg, #010101 0%, #010101 100%);
 }
 
 .socialLinks a[href*="twitch"] {
-    background: linear-gradient(#6e00b8);
-    -webkit-background: linear-gradient(135deg, #6e00b8 0%, #6e00b8 100%);
+  background: linear-gradient(135deg, #6e00b8 0%, #6e00b8 100%);
+  -webkit-background: linear-gradient(135deg, #6e00b8 0%, #6e00b8 100%);
 }
 
 .socialLinks a[href*="donatello"] {
-    background: linear-gradient(rgb(182, 112, 124));
-    -webkit-background: linear-gradient(rgb(182, 112, 124));
+  background: linear-gradient(135deg, #b6707c 0%, #b6707c 100%);
+  -webkit-background: linear-gradient(135deg, #b6707c 0%, #b6707c 100%);
 }
 
 .socialLinks a .bi {
@@ -940,7 +942,7 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   .main-image {
-    top: 30px;  
+    top: 30px;
   }
 
   .name {
@@ -1108,8 +1110,8 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 @supports (-webkit-touch-callout: none) {
-    .socialLinks a {
-        background-clip: padding-box;
-        -webkit-background-clip: padding-box;
-    }
+  .socialLinks a {
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+  }
 }
