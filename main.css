@@ -527,6 +527,11 @@ input[type="range"]::-webkit-slider-thumb {
     display: none;
   }
 
+  .socialLinks a:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
   .track-info {
     bottom: 92px;
     left: 50%;
@@ -634,6 +639,12 @@ input[type="range"]::-webkit-slider-thumb {
 
   .socialLinks a::after {
     display: none;
+  }
+
+  .socialLinks a:focus,
+  .socialLinks a:active {
+    outline: none;
+    box-shadow: none;
   }
 
   .track-info {
