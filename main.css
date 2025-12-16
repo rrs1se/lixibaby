@@ -351,6 +351,7 @@ input[type="range"]::-webkit-slider-thumb {
   transform: scale(1.12);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
 }
+
 .socialLinks a:hover .bi {
   transform: scale(1.12);
 }
@@ -517,6 +518,15 @@ input[type="range"]::-webkit-slider-thumb {
     overflow: visible;
   }
 
+  .socialLinks a:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .socialLinks a:hover .bi {
+    transform: none;
+  }
+
   .socialLinks a .bi {
     color: #fff;
     font-size: 20px;
@@ -629,6 +639,15 @@ input[type="range"]::-webkit-slider-thumb {
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
     position: relative;
     overflow: visible;
+  }
+
+  .socialLinks a:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .socialLinks a:hover .bi {
+    transform: none;
   }
 
   .socialLinks a .bi {
@@ -746,10 +765,28 @@ input[type="range"]::-webkit-slider-thumb {
     overflow: visible;
   }
 
+  .socialLinks a:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .socialLinks a:hover .bi {
+    transform: none;
+  }
+
   .socialLinks a .bi {
     color: #fff;
     font-size: 20px;
     transform-origin: center;
+  }
+
+  .socialLinks a::after {
+    display: none;
+  }
+
+  .socialLinks a:focus {
+    outline: none;
+    box-shadow: none;
   }
 
   .track-info {
@@ -825,6 +862,29 @@ input[type="range"]::-webkit-slider-thumb {
     left: 5%;
     top: 83%;
     z-index: 1;
+  }
+
+  .socialLinks a:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .socialLinks a:hover .bi {
+    transform: none;
+  }
+
+  .socialLinks a .bi {
+    color: #fff;
+    transform-origin: center;
+  }
+
+  .socialLinks a::after {
+    display: none;
+  }
+
+  .socialLinks a:focus {
+    outline: none;
+    box-shadow: none;
   }
 
   .audioControllers {
@@ -910,6 +970,15 @@ input[type="range"]::-webkit-slider-thumb {
     left: 5%;
     top: 78%;
     z-index: 1;
+  }
+
+  .socialLinks a:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .socialLinks a:hover .bi {
+    transform: none;
   }
 
   .audioControllers {
